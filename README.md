@@ -4,6 +4,8 @@ This is a simple project where you can..
 - "encrypt" the audio file and download the encrypted file (The encryption uses AES algorith)
 - "decrypt" the said audio file and let you play on the browser
 
+We have deployed this on *Heroku* and you can try using it [here](https://audio-player-gr6.herokuapp.com/)!
+
 ### On decryption
 In order to decrypt the encrypted file, a password is needed. However, for security reason, we have encrypted `password.json` file before pushing onto this repository. Thus, if you wish to implement this simple website, you can create your own `password.json` or change the password in the `script.js`.
 
