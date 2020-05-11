@@ -5,7 +5,7 @@ This is a simple project where you can..
 - "decrypt" the said audio file and let you play on the browser
 
 ### On decryption
-In order to decrypt the encrypted file, a password is needed. However, for security reason, we have excluded `password.json` file before pushing onto this repository. Thus, if you wish to implement this simple website, you can create your own `password.json` or change the password in the `script.js`.
+In order to decrypt the encrypted file, a password is needed. However, for security reason, we have encrypted `password.json` file before pushing onto this repository. Thus, if you wish to implement this simple website, you can create your own `password.json` or change the password in the `script.js`.
 
 ### Node modules used
 The main module that is used to encrypt the file is `crypto-js`. It is JavaScript implementations of standard and secure cryptographic algorithms For more information on `crypto-js`, you can click [here](https://www.npmjs.com/package/crypto-js).
